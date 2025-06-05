@@ -1,0 +1,7 @@
+const config = {
+  TRIGGER_URL: 'your-trigger-url-here'
+};
+
+if (typeof module !== 'undefined' && module.exports) {
+  module.exports = config;
+} 
